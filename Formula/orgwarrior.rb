@@ -5,15 +5,15 @@ class Orgwarrior < Formula
 
   desc "Taskwarrior-style command line and web page for Org mode's agenda"
   homepage "https://github.com/aleksozolins/orgwarrior"
-  url "https://files.pythonhosted.org/packages/source/o/orgwarrior/orgwarrior-0.3.0.tar.gz"
-  sha256 "a9068f3e297b94f18038d6eee47f71148dffd8e333a1cbb605487bee81930ed2"
+  url "https://files.pythonhosted.org/packages/source/o/orgwarrior/orgwarrior-0.3.1.tar.gz"
+  sha256 "4f0c6584f76da05071d468a304250e00c57daa75de60ed9761fb7acd7a239494"
   license "GPL-3.0-or-later"
 
   depends_on "python@3.13"
 
   resource "orgwarrior-web" do
-    url "https://files.pythonhosted.org/packages/source/o/orgwarrior-web/orgwarrior_web-0.3.0.tar.gz"
-    sha256 "2e3329209d41c1daa539aa6cd363fc13ef6d7aaf3a0fdd0f0149da8ca03e4ca7"
+    url "https://files.pythonhosted.org/packages/source/o/orgwarrior-web/orgwarrior_web-0.3.1.tar.gz"
+    sha256 "05bcd81367a35ce2c2d5d6cecb7100703db14510c8a34c584588b86361d61efa"
   end
 
   def install
